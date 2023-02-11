@@ -321,6 +321,50 @@ void ATMPin3(){
     }
     if(i==3)cout << "your not able to access to the balance";
 }
+// 24
+void digitOrUpperOrLower(){
+        char x;
+        int y;
+        cin >> x;
+        y = x;
+        cout << y;
+    if (y>= 48 && y<=57) cout << "IS DIGIT";
+    if (y>= 65 && y<=90)cout << "ALPHA" << endl << "IS CAPITAL";
+    if (y>= 97 && y<= 122) cout << "ALPHA" << endl << "IS SMALL";
+}
+void calcExpression(){
+    int num1,num2;
+    char operation='a';
+    string expression,temp1="",temp2="";
+    cin >> expression;
+    for(int i=0;i<expression.size();i++){
+        if(!(int(expression[i])>=48 && int(expression[i]<=57))){
+            operation = expression[i];
+        }else{
+            if(operation == 'a'){
+                temp1+=expression[i];
+            }else{
+                temp2+=expression[i];
+            }
+        }
+    }
+    num1=stoi(temp1);
+    num2=stoi(temp2);
+    switch (operation) {
+        case '+':
+            cout << num1 + num2;
+            break;
+        case '-':
+            cout << num1 - num2;
+            break;
+        case '*':
+            cout << num1 * num2;
+            break;
+        case '/':
+            cout << num1 / num2;
+            break;
+    }
+}
 int main() {
     //oddOrEven();
     //heirADriver();
@@ -344,6 +388,8 @@ int main() {
     //secondsTo();
     //dayOfWeek();
     //aToz();
-    ATMPin3();
+    //ATMPin3();
+    //digitOrUpperOrLower();
+    calcExpression();
     return 0;
 }
