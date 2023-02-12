@@ -332,6 +332,7 @@ void digitOrUpperOrLower(){
     if (y>= 65 && y<=90)cout << "ALPHA" << endl << "IS CAPITAL";
     if (y>= 97 && y<= 122) cout << "ALPHA" << endl << "IS SMALL";
 }
+// 25
 void calcExpression(){
     int num1,num2;
     char operation='a';
@@ -365,6 +366,19 @@ void calcExpression(){
             break;
     }
 }
+// 26
+void firstDigit(){
+    string num,fds;
+    int fdi;
+    cin >> num;
+    fds = num[0];
+    fdi = stoi(fds);
+    if(fdi%2==0){
+        cout << "EVEN";
+    }else {
+        cout << "ODD";
+    }
+}
 int main() {
     //oddOrEven();
     //heirADriver();
@@ -390,6 +404,7 @@ int main() {
     //aToz();
     //ATMPin3();
     //digitOrUpperOrLower();
-    calcExpression();
+    //calcExpression();
+    firstDigit();
     return 0;
 }

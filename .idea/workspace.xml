@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0843ac3-4188-4580-a28d-cb9612a8aaf2" name="Changes" comment="commit some problems">
+    <list default="true" id="e0843ac3-4188-4580-a28d-cb9612a8aaf2" name="Changes" comment="commit some new problems from codeforces">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -72,11 +72,6 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="start" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Problem-solving-with-c++" TARGET_NAME="start" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Problem-solving-with-c++" RUN_TARGET_NAME="start">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -100,7 +95,8 @@
       <workItem from="1675713388855" duration="9783000" />
       <workItem from="1675777239671" duration="3000" />
       <workItem from="1675777607561" duration="908000" />
-      <workItem from="1676133898823" duration="7700000" />
+      <workItem from="1676133898823" duration="8781000" />
+      <workItem from="1676205785973" duration="603000" />
     </task>
     <task id="LOCAL-00001" summary="commit some problems">
       <created>1675777838846</created>
@@ -109,15 +105,34 @@
       <option name="project" value="LOCAL" />
       <updated>1675777838846</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit some new problems from codeforces">
+      <created>1676149471919</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676149471919</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit some problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit some problems" />
+    <MESSAGE value="commit some new problems from codeforces" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit some new problems from codeforces" />
   </component>
 </project>
