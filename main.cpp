@@ -446,6 +446,40 @@ void sortNumbers(){
     }
     cout << endl << a << endl << b << endl << c << endl;
 }
+// 31
+void floatOrInt(){
+    int a;
+    float b,temp;
+    cin >> b;
+    a = b;
+    temp = b - a;
+    if(temp == 0){
+       cout << "int " << a;
+    }else{
+        cout << "float " << a << " " << temp;
+    }
+}
+// 32
+void comparison(){
+    int x,y;
+    char op;
+    cin >> x >> op >> y;
+    switch (op) {
+        case '>':
+            if(x > y) cout << "Right";
+            else cout << "Wrong";
+            break;
+        case '<':
+            if(x < y) cout << "Right";
+            else cout << "Wrong";
+            break;
+        case '=':
+            if(x == y) cout << "Right";
+            else cout << "Wrong";
+            break;
+    }
+}
+// 33
 int main() {
     //oddOrEven();
     //heirADriver();
@@ -476,6 +510,8 @@ int main() {
     //coordinatesOfAPoint();
     //ageInDays();
     //interval();
-    sortNumbers();
+    //sortNumbers();
+    //floatOrInt();
+    comparison();
     return 0;
 }

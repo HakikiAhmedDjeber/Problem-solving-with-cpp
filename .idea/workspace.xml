@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0843ac3-4188-4580-a28d-cb9612a8aaf2" name="Changes" comment="commit some new problems from codeforces">
+    <list default="true" id="e0843ac3-4188-4580-a28d-cb9612a8aaf2" name="Changes" comment="commit the problem of sorting and learn to read the question before send the answer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -97,7 +97,7 @@
       <workItem from="1675777607561" duration="908000" />
       <workItem from="1676133898823" duration="8781000" />
       <workItem from="1676205785973" duration="5767000" />
-      <workItem from="1676478235952" duration="1882000" />
+      <workItem from="1676478235952" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="commit some problems">
       <created>1675777838846</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676206472415</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit the problem of sorting and learn to read the question before send the answer">
+      <created>1676484989612</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676484989612</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +148,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="commit some problems" />
     <MESSAGE value="commit some new problems from codeforces" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit some new problems from codeforces" />
+    <MESSAGE value="commit the problem of sorting and learn to read the question before send the answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit the problem of sorting and learn to read the question before send the answer" />
   </component>
 </project>
