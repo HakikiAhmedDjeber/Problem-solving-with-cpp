@@ -480,6 +480,37 @@ void comparison(){
     }
 }
 // 33
+void mathematicalEx(){
+    int a,b,c;
+    char s,q;
+    cin >> a >> s >> b >> q >> c;
+    switch (s) {
+        case '+':
+            if(a + b == c) cout << "Yes";
+            else cout << a+b;
+            break;
+        case '-':
+            if(a - b == c) cout << "Yes";
+            else cout << a - b;
+            break;
+        case '*':
+            if(a * b == c) cout << "Yes";
+            else cout << a * b;
+            break;
+    }
+}
+// 34
+void twoIntervals(){
+    int l1,l2,r1,r2;
+    cin >> l1 >> r1 >> l2 >> r2;
+    if (l1 < r2 && l1 > l2){
+        cout << l1 << " " << r2;
+    } else if(r1 > l2 && r1 < r2){
+        cout << l2 << " " << r1 ;
+    } else {
+        cout << -1;
+    }
+}
 int main() {
     //oddOrEven();
     //heirADriver();
@@ -512,6 +543,8 @@ int main() {
     //interval();
     //sortNumbers();
     //floatOrInt();
-    comparison();
+    //comparison();
+    //mathematicalEx();
+    twoIntervals();
     return 0;
 }

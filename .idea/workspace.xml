@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0843ac3-4188-4580-a28d-cb9612a8aaf2" name="Changes" comment="commit the problem of sorting and learn to read the question before send the answer">
+    <list default="true" id="e0843ac3-4188-4580-a28d-cb9612a8aaf2" name="Changes" comment="commit some problems">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -97,7 +97,7 @@
       <workItem from="1675777607561" duration="908000" />
       <workItem from="1676133898823" duration="8781000" />
       <workItem from="1676205785973" duration="5767000" />
-      <workItem from="1676478235952" duration="3211000" />
+      <workItem from="1676478235952" duration="4859000" />
     </task>
     <task id="LOCAL-00001" summary="commit some problems">
       <created>1675777838846</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676484989612</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit some problems">
+      <created>1676486119369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676486119369</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,9 +153,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="commit some problems" />
     <MESSAGE value="commit some new problems from codeforces" />
     <MESSAGE value="commit the problem of sorting and learn to read the question before send the answer" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit the problem of sorting and learn to read the question before send the answer" />
+    <MESSAGE value="commit some problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit some problems" />
   </component>
 </project>
