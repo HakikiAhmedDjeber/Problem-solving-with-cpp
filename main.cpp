@@ -379,6 +379,73 @@ void firstDigit(){
         cout << "ODD";
     }
 }
+// 27
+void coordinatesOfAPoint(){
+    float x,y;
+    cin >> x >> y;
+    if(x==0 && y==0) {cout << "Origem";}
+    else if(x==0 && y!=0){
+        cout << "Eixo Y";
+    }else if(x!=0 && y==0){
+        cout << "Eixo X";
+    }else{
+        if(x>0){
+            if(y>0) cout << "Q1";
+            else cout << "Q4";
+        }else{
+            if(y>0) cout << "Q2";
+            else cout << "Q3";
+        }
+    }
+}
+// 28
+void ageInDays(){
+        int days;
+        int temp;
+        cin >> days;
+        temp = days;
+        days = days / 365;
+        cout << days << " years" << endl;
+        temp = temp - (days * 365);
+        days = temp;
+        days = days / 30;
+        cout << days << " months" << endl;
+        temp = temp - (days * 30);
+        cout << temp << " days";
+}
+// 29
+void interval(){
+    float num ;
+    cin >> num;
+    if(num < 0 || num > 100){
+        cout << "Out of Intervals";
+    }else{
+        if(num >= 0 && num <= 25) cout << "Interval [0,25]";
+        else if (num > 25 && num <= 50) cout << "Interval (25,50]";
+        else if (num > 50 && num <= 75) cout << "Interval (50,75]";
+        else cout << "Interval (75,100]";
+    }
+}
+// 30
+void sortNumbers(){
+    int a,b,c;
+    cin >> a >> b >> c;
+    if(a>b){
+        if(b>c) cout << c << endl << b << endl << a << endl;
+        else{
+            if(a<c) cout << b << endl << a << endl << c << endl;
+            else cout << b << endl << c << endl << a << endl;
+        }
+    }
+    else{
+        if(a>c) cout << c << endl << a << endl << b << endl;
+        else{
+            if(b<c) cout << a << endl << b << endl << c << endl;
+            else cout << a << endl << c << endl << b << endl;
+        }
+    }
+    cout << endl << a << endl << b << endl << c << endl;
+}
 int main() {
     //oddOrEven();
     //heirADriver();
@@ -405,6 +472,10 @@ int main() {
     //ATMPin3();
     //digitOrUpperOrLower();
     //calcExpression();
-    firstDigit();
+    //firstDigit();
+    //coordinatesOfAPoint();
+    //ageInDays();
+    //interval();
+    sortNumbers();
     return 0;
 }
