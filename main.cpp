@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <cstdio>
 using namespace std;
 // 35 i can't do it so i see the correction from youtube playlist
 void lastTwoDigits(){
@@ -23,8 +24,17 @@ void hardCompare(){
     if(a>c)cout << "YES";
     else cout << "NO";
 }
+// 37
+void winterSales(){
+    float x,p,price;
+    cin >> x >> p;
+    x = 1-(x/100);
+    price = p / x;
+    printf("%.2lf",price);
+}
 int main() {
     //lastTwoDigits();
-    hardCompare();
+    //hardCompare();
+    winterSales();
     return 0;
 }

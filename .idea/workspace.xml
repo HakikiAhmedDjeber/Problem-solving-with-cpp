@@ -20,9 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="839dc045-8677-4c3f-9dc0-b30d51fb30ce" name="Changes" comment="i change files and do the lastTwoDigits problem">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="839dc045-8677-4c3f-9dc0-b30d51fb30ce" name="Changes" comment="copy the hard compare problem and understand the solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -82,7 +80,8 @@
       <workItem from="1676716118017" duration="3024000" />
       <workItem from="1676812707183" duration="4517000" />
       <workItem from="1677683890249" duration="3000" />
-      <workItem from="1677686818335" duration="380000" />
+      <workItem from="1677686818335" duration="1549000" />
+      <workItem from="1677935558565" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="i change files and do the lastTwoDigits problem">
       <created>1676666315475</created>
@@ -91,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676666315475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="copy the hard compare problem and understand the solution">
+      <created>1677687386735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677687386735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i change files and do the lastTwoDigits problem" />
-    <option name="LAST_COMMIT_MESSAGE" value="i change files and do the lastTwoDigits problem" />
+    <MESSAGE value="copy the hard compare problem and understand the solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="copy the hard compare problem and understand the solution" />
   </component>
 </project>
