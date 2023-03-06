@@ -43,10 +43,24 @@ void memoAndMomo(){
     else if (b%k==0)cout << "Momo";
     else cout << "No One";
 }
+// 39
+void nextAlphabet(){
+    char alphabet[26] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'};
+    char current ;
+    cin >> current;
+    for (int i=0; i < 26; ++i) {
+        if (alphabet[i]==current){
+            if(i== 25) cout << alphabet[0];
+            else cout << alphabet[i+1];
+            break;
+        }
+    }
+}
 int main() {
     //lastTwoDigits();
     //hardCompare();
     //winterSales();
-    memoAndMomo();
+    //memoAndMomo();
+    nextAlphabet();
     return 0;
 }
