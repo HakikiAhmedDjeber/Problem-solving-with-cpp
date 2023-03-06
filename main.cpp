@@ -56,11 +56,19 @@ void nextAlphabet(){
         }
     }
 }
+// 40
+void aliBabPuzzle(){
+    long long d,a,b,c;
+    cin >> a >> b >> c >> d;
+    if(a+b-c==d || a+b*c==d || a-b+c==d || a-b*c==d || a*b-c==d || a*b+c==d)cout << "YES";
+    else cout << "NO";
+}
 int main() {
     //lastTwoDigits();
     //hardCompare();
     //winterSales();
     //memoAndMomo();
-    nextAlphabet();
+    //nextAlphabet();
+    aliBabPuzzle();
     return 0;
 }

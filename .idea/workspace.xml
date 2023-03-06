@@ -20,7 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="839dc045-8677-4c3f-9dc0-b30d51fb30ce" name="Changes" comment="do memo and momo i had a runtime error cause of using small type variables">
+    <list default="true" id="839dc045-8677-4c3f-9dc0-b30d51fb30ce" name="Changes" comment="do next alphabet challenge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       <workItem from="1677683890249" duration="3000" />
       <workItem from="1677686818335" duration="1549000" />
       <workItem from="1677935558565" duration="3156000" />
-      <workItem from="1678132973969" duration="1730000" />
+      <workItem from="1678132973969" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="i change files and do the lastTwoDigits problem">
       <created>1676666315475</created>
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678133645179</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="do next alphabet challenge">
+      <created>1678134768978</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678134768978</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +130,7 @@
     <MESSAGE value="copy the hard compare problem and understand the solution" />
     <MESSAGE value="do the winter sales problem" />
     <MESSAGE value="do memo and momo i had a runtime error cause of using small type variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="do memo and momo i had a runtime error cause of using small type variables" />
+    <MESSAGE value="do next alphabet challenge" />
+    <option name="LAST_COMMIT_MESSAGE" value="do next alphabet challenge" />
   </component>
 </project>
