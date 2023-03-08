@@ -63,12 +63,22 @@ void aliBabPuzzle(){
     if(a+b-c==d || a+b*c==d || a-b+c==d || a-b*c==d || a*b-c==d || a*b+c==d)cout << "YES";
     else cout << "NO";
 }
+void intervalSweep(){
+    int a,b;
+    cin >> a >> b;
+    if(a+b==0)cout << "NO";
+    else{
+        if(a-b <= 1 && a-b >= -1) cout << "YES";
+        else cout << "NO";
+    }
+}
 int main() {
     //lastTwoDigits();
     //hardCompare();
     //winterSales();
     //memoAndMomo();
     //nextAlphabet();
-    aliBabPuzzle();
+    //aliBabPuzzle();
+    intervalSweep();
     return 0;
 }
